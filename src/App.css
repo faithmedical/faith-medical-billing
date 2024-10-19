@@ -1,38 +1,112 @@
+/* General Styles */
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header Styles */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #4CAF50;
   color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header img {
+  height: 60px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #4CAF50;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Services Section */
+.services-section {
+  padding: 50px 0;
+}
+
+.slider-content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slider-content img {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}
+
+.slider-content p {
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* About Section */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about-container {
+  display: flex;
+  justify-content:center;
+  gap: 40px;
+}
+
+.about-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.about-card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
