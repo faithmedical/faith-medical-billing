@@ -29,6 +29,7 @@ function App() {
         <h1>Faith Medical Billing Corp</h1>
         <p>Overwhelmed by Billing? We Can Help!</p>
         <a href="#services" className="cta-btn">Learn More</a>
+        <a href="mailto:fmb@faithmedicalbilling.com" className="contact-btn">Contact Us</a>
       </header>
 
       <section id="services" className="services-section">
